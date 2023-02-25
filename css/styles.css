@@ -3630,6 +3630,17 @@ textarea.form-control-lg {
   body {
     font-size: 16px;
   }
+  /* add a background image to the logo */
+  .navbar-brand::before {
+    content: "";
+    display: block;
+    width: 50px; /* adjust the width as needed */
+    height: 50px; /* adjust the height as needed */
+    background-image: url("path/to/your/image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+  }
 }
 @media (min-width: 992px) {
   .dropdown-menu-lg-start {
