@@ -3634,8 +3634,8 @@ textarea.form-control-lg {
   .navbar-brand::before {
     content: "";
     display: block;
-    width: 50px; /* adjust the width as needed */
-    height: 50px; /* adjust the height as needed */
+    width: 40px; /* adjust the width as needed */
+    height: 40px; /* adjust the height as needed */
     background-image: url("path/to/your/image.png");
     background-repeat: no-repeat;
     background-size: contain;
