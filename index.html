@@ -23,22 +23,22 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">Leadership</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">sponsors</a></li>
                             <li class="nav-item"><a class="nav-link" href="pricing.html">Donate</a></li>
-                            <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                          <!--    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>Header--> 
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">News and Events</a>
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">How to get Involved</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                    <li><a class="dropdown-item" href="blog-home.html">News event</a></li>
-                                    <li><a class="dropdown-item" href="blog-post.html">Annoucement</a></li>
+                                    <li><a class="dropdown-item" href="blog-post.html">Volunteers</a></li>
+                            
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
-                                    <li><a class="dropdown-item" href="portfolio-overview.html">Community Outreach </a></li>
                                     <li><a class="dropdown-item" href="portfolio-item.html">Who we are</a></li>
+                                    <li><a class="dropdown-item" href="portfolio-overview.html">Community Outreach </a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -46,23 +46,44 @@
                 </div>
             </nav>
             <!-- Header-->
-            <header class="bg-dark py-5">
-                <div class="container px-5">
-                    <div class="row gx-5 align-items-center justify-content-center">
-                        <div class="col-lg-8 col-xl-7 col-xxl-6">
-                            <div class="my-5 text-center text-xl-start">
-                                <h1 class="display-5 fw-bolder text-white mb-2">Empowering Underprivileged Minority Youth in STEM</h1>
-                                <p class="lead fw-normal text-white 50- mb-4">Our high school robotics team provides a safe and inclusive space for minority youth to explore the world of STEM. With experienced mentors and a focus on teamwork, our program prepares scholars for a succesful future in technology and beyond.</p>
-                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="contact.html">Join us</a>
-                                    <a class="btn btn-outline-light btn-lg px-4" href="blog-home.html">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-5 col-xxl-4 d-none d-xl-block text-center"><img class src="assets/images/Team/teamhome.png" alt="..." /></div>
-                    </div>
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-            </header>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/images/Team/banner11.png" class="d-block w-400 img-fluid custom-image" data-bs-interval="2000" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/Team/banner3.png" class="d-block w-400 img-fluid custom-image" data-bs-interval="2000" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>VEX Team </h5>
+                    
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/Team/win.png" class="d-block w-400 img-fluid custom-image" data-bs-interval="2000" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>2022 FRC 8829 Rookie Championship</h5>
+                    
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              
             <!-- Features section-->
             <section class="py-5" id="features">
                 <div class="container px-3 my-3">
@@ -80,7 +101,7 @@
                                 </div>
                                 <div class="col mb-5 h-100">
                                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
-                                    <h2 class="h5">Low Income | NORTHEAST ATX</h2>
+                                    <h2 class="h5">Low Income | EAST ATX</h2>
                                     <p class="mb-0">Austin Achieve is a College Ready, K-12 school which gives underprivileged students educational opportunities not typically accessible to them. Our team is funded entirely by grants and parent sponsors</p>
                                 </div>
                                 <div class="col mb-5 mb-md-0 h-100">
@@ -101,27 +122,6 @@
                     </div>
                 </div>
             </section>
-            <!-- Testimonial section-->
-            <div class="py-5 bg-light">
-                <div class="container px-4 my-4">
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-lg-10 col-xl-7">
-                            <div class="text-center">
-                                <div class="fs-4 mb-4 fst-italic">Unleash Your Potential with ARC-TECH BEARS: Discover the Excitement of STEM and Build Your Skills from Scratch! </div>
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <img class="rounded-circle me-3" src="assets/images/logo/jess40.png" alt="..." />
-                                    <div class="fw-bold">
-                                        Web Developer
-                                        <span class="fw-bold text-primary mx-1">/</span>
-                                      Jessica Perez
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <!-- Page Content of robotics frc info-->
             <section class="py-5">
                 <div class="container px-5">
@@ -135,7 +135,7 @@
                                         <div class="h2 fw-bolder">2022 FIRST in Texas District</div>
                                         <p>Combining the excitement of sport with the rigors of science and technology. We call FIRST Robotics Competition the ultimate Sport for the Mind. High-school student participants call it “the hardest fun you’ll ever have.”
                                             Under strict rules, limited time and resources, teams of students are challenged to raise funds, design a team "brand," hone teamwork skills, and build and program industrial-size robots to play a difficult field game against like-minded competitors. It’s as close to real-world engineering as a student can get. Volunteer professional mentors lend their time and talents to guide each team. Each season ends with an exciting FIRST Championship.</p>
-                                            <a class="stretched-link text-decoration-none" href="#!">
+                                            <a class="stretched-link text-decoration-none" href="blog-home.html">
                                             Read more
                                             <i class="bi bi-arrow-right"></i>
                                         </a>
@@ -154,7 +154,6 @@
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-8 col-xl-6">
                             <div class="text-center">
-                          
                         </div>
                     </div>
                     <div class="row gx-5">
@@ -220,6 +219,26 @@
                    
                 </div>
             </section>
+             <!-- Testimonial section-->
+        <div class="py-3 bg-light">
+            <div class="container px-4 my-4">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-10 col-xl-7">
+                        <div class="text-center">
+                            <div class="fs-4 mb-4 fst-italic">Unleash Your Potential with ARC-TECH BEARS: Discover the Excitement of STEM and Build Your Skills from Scratch! </div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img class="rounded-circle me-3" src="assets/images/logo/jess40.png" alt="..." />
+                                <div class="fw-bold">
+                                    Web Developer
+                                    <span class="fw-bold text-primary mx-1">/</span>
+                                  Jessica Perez
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         </main>
         <!-- Footer-->
         <footer class="bg-dark py-4 mt-auto">
@@ -236,6 +255,7 @@
                 </div>
             </div>
         </footer>
+       
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
